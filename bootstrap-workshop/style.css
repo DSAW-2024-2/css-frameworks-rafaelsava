@@ -1,0 +1,40 @@
+body{
+    background-color: #f3eae3;
+}
+.container{
+    background-color: #ffff;
+}
+.letter-spacing{
+    letter-spacing: 0.3em;
+}
+.productName{
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    line-height: 1.2em;
+}
+
+.productDescription{
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.productPrice{
+    color: #3d8168;
+    font-weight: 900;
+    font-size: 2rem;
+    span{
+        font-size: 0.95rem;
+        color: black;
+        font-weight: 200;
+        text-decoration: line-through;
+        }
+}
+
+.buyButton{
+    background-color: #3d8168;
+    color: white;
+
+    img{
+        height: 1.2rem;
+    }
+}
