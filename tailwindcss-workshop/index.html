@@ -1,33 +1,36 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body> 
-    Your Result
-    76
-    of 100
-  
-    Great
-    You scored higher than 65% of the people who have taken these tests.
-  
-    Summary
-  
-    Reaction
-    80 / 100
-  
-    Memory
-    92 / 100
-  
-    Verbal
-    61 / 100
-  
-    Visual
-    72 / 100
-  
-    Continue
+<html lang="en">
 
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tailwind Workshop</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body class="flex items-center justify-center h-screen px-3">
+
+  <div class="container mx-auto my-3 flex flex-col md:flex-row items-center bg-white rounded-lg shadow-lg">
+    <div class="w-full md:w-1/2 mb-1 md:mb-0">
+      <img src="/assets/images/image-product-mobile.jpg" alt="image-product-mobile" class="rounded-t-lg block md:hidden w-full">
+      <img src="/assets/images/image-product-desktop.jpg" alt="image-product-desktop" class="rounded-l-lg hidden md:block w-full">
+    </div>
+    <div class="w-full md:w-1/2 p-4">
+      <div class="text-sm tracking-widest text-gray-500 font-light">PERFUME</div>
+      <div class="text-2xl font-bold my-2 leading-tight">Gabrielle Essence <br>Eau De Parfum</div>
+      <div class="text-gray-600">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfum-Creator for the House of CHANEL.</div>
+      <div class="text-xl font-semibold mt-4 flex items-center">$149.99 <span class="ml-3 text-gray-500 line-through">$169.99</span></div>
+      <div class="flex items-center mt-3 border rounded-lg p-3 justify-center font-bold bg-green-600 text-white cursor-pointer">
+        <img src="/assets/images/icon-cart.svg" alt="Shopping Cart Image" class="mr-2">
+        Add to Cart
+      </div>
+    </div>
+  </div>
+
+</body>
+
 </html>
