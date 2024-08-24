@@ -3,13 +3,10 @@ body{
 }
 .container{
     background-color: #ffff;
-    max-width: 50%;
-}
-.letter-spacing{
-    letter-spacing: 0.3rem;
 }
 .product{
     font-size: 1rem;
+    letter-spacing: 0.3rem;
 }
 .productName{
     font-family: "Merriweather", serif;
@@ -22,14 +19,16 @@ body{
     font-weight: 400;
     line-height: 1.5rem;
     font-size: 1rem;
-}
+}   
 
 .productPrice{
-    color: #3d8168;
-    font-weight: 900;
-    font-size: 2rem;
+    span:first-child{
+        color: #3d8168;
+        font-weight: 700;
+        font-size: 2rem;
+    }
     span:nth-child(2){
-        font-size: 0.95rem;
+        font-size: 0.9rem;
         color: black;
         font-weight: 200;
         text-decoration: line-through;
@@ -45,37 +44,33 @@ body{
     }
 }
 
-
-@media (max-width: 1200px) { 
-    .container {
-        max-width: 80%; 
-    }
-
-}
-
-
 @media (max-width: 576px) { 
-    .container {
-        max-width: 80%; 
-    }
     .product{
         font-size: 0.6rem;
     }
     .productName{
         font-size: 1.3rem;
-        line-height: 1.7rem;
+        line-height: 1.5rem;
     }
     .productDescription{
         font-size: 0.8rem;
-        line-height: 1.2rem;
+        line-height: 1.1rem;
     }
+
     .productPrice{
-        font-size: 1.5rem;
-        font-weight: 700;
-        span{
-            font-size: 0.8rem;
+        span:first-child{
+            color: #3d8168;
+            font-weight: 700;
+            font-size: 1.6rem;
         }
+        span:nth-child(2){
+            font-size: 0.7rem;
+            color: black;
+            font-weight: 200;
+            text-decoration: line-through;
+            }
     }
+    
     .buyButton{
         font-size: 0.8rem;
         img{

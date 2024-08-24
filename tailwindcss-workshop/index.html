@@ -5,34 +5,34 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Tailwind Workshop</title>
-  <link rel="stylesheet" href="styletw.css" type="text/css">
-  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styletw.css" type="text/css">
 </head>
 
-<body class="flex items-center justify-center min-h-screen px-2 md:px-4">
+<body class="flex items-center justify-center min-h-screen px-1 md:px-3">
 
-  <div class="container flex flex-col sm:flex-row items-center rounded-lg mx-auto my-3">
+  <div class="container flex flex-col sm:flex-row items-center w-[80%] lg:w-1/2 rounded-lg mx-auto my-3">
     <div class="sm:w-1/2 mb-2 sm:mb-0">
       <img src="../assets/images/image-product-mobile.jpg" alt="image-product-mobile" class="block sm:hidden rounded-t-lg">
       <img src="../assets/images/image-product-desktop.jpg" alt="image-product-desktop" class="hidden sm:block rounded-l-lg">
     </div>
-    <div class="sm:w-1/2 p-4 md:p-6">
-      <div class="product font-light tracking-wider text-gray-500">PERFUME</div>
-      <div class="productName my-2 text-2xl font-semibold leading-tight">Gabrielle Essence <br>Eau De Parfum</div>
-      <div class="productDescription text-sm">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfum-Creator for the House of CHANEL.</div>
-      <div class="productPrice md:mt-5 flex items-center">
-        <span class="text-3xl font-bold">$149.99</span>
-        <span class="ml-4 line-through text-gray-400">$169.99</span>
+    <div class="sm:w-1/2 p-3 px-5 md:p-6">
+      <div class="product font-light">PERFUME</div>
+      <div class="productName my-2">Gabrielle Essence <br>Eau De Parfum</div>
+      <div class="productDescription ">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfum-Creator for the House of CHANEL.</div>
+      <div class="productPrice  mt-3 md:mt-5 flex items-center">
+        <span class="font-bold">$149.99</span>
+        <span class="ml-4 line-through">$169.99</span>
       </div>
-      <div class="buyButton mt-3 md:mt-5 flex items-center justify-center w-full p-3 md:p-4 bg-blue-500 text-white rounded-lg nt-bold cursor-pointer">
+      <div class="buyButton mt-3 md:mt-5 flex items-center justify-center w-full p-3 md:p-4 rounded-lg nt-bold ">
         <img src="../assets/images/icon-cart.svg" alt="Shopping Cart Image" class="mr-2">
         Add to Cart
       </div>
     </div>
   </div>
+  <script src="https://cdn.tailwindcss.com"></script>
 
 </body>
 
