@@ -5,27 +5,30 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Tailwind Workshop</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="styletw.css" type="text/css">
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
-<body class="flex items-center justify-center h-screen px-3">
+<body class="flex items-center justify-center min-h-screen px-2 md:px-4">
 
-  <div class="container mx-auto my-3 flex flex-col md:flex-row items-center bg-white rounded-lg shadow-lg">
-    <div class="w-full md:w-1/2 mb-1 md:mb-0">
-      <img src="/assets/images/image-product-mobile.jpg" alt="image-product-mobile" class="rounded-t-lg block md:hidden w-full">
-      <img src="/assets/images/image-product-desktop.jpg" alt="image-product-desktop" class="rounded-l-lg hidden md:block w-full">
+  <div class="container flex flex-col sm:flex-row items-center rounded-lg mx-auto my-3">
+    <div class="sm:w-1/2 mb-2 sm:mb-0">
+      <img src="../assets/images/image-product-mobile.jpg" alt="image-product-mobile" class="block sm:hidden rounded-t-lg">
+      <img src="../assets/images/image-product-desktop.jpg" alt="image-product-desktop" class="hidden sm:block rounded-l-lg">
     </div>
-    <div class="w-full md:w-1/2 p-4">
-      <div class="text-sm tracking-widest text-gray-500 font-light">PERFUME</div>
-      <div class="text-2xl font-bold my-2 leading-tight">Gabrielle Essence <br>Eau De Parfum</div>
-      <div class="text-gray-600">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfum-Creator for the House of CHANEL.</div>
-      <div class="text-xl font-semibold mt-4 flex items-center">$149.99 <span class="ml-3 text-gray-500 line-through">$169.99</span></div>
-      <div class="flex items-center mt-3 border rounded-lg p-3 justify-center font-bold bg-green-600 text-white cursor-pointer">
-        <img src="/assets/images/icon-cart.svg" alt="Shopping Cart Image" class="mr-2">
+    <div class="sm:w-1/2 p-4 md:p-6">
+      <div class="product font-light tracking-wider text-gray-500">PERFUME</div>
+      <div class="productName my-2 text-2xl font-semibold leading-tight">Gabrielle Essence <br>Eau De Parfum</div>
+      <div class="productDescription text-sm">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfum-Creator for the House of CHANEL.</div>
+      <div class="productPrice md:mt-5 flex items-center">
+        <span class="text-3xl font-bold">$149.99</span>
+        <span class="ml-4 line-through text-gray-400">$169.99</span>
+      </div>
+      <div class="buyButton mt-3 md:mt-5 flex items-center justify-center w-full p-3 md:p-4 bg-blue-500 text-white rounded-lg nt-bold cursor-pointer">
+        <img src="../assets/images/icon-cart.svg" alt="Shopping Cart Image" class="mr-2">
         Add to Cart
       </div>
     </div>
