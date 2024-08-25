@@ -1,15 +1,9 @@
-body{
-    background-color:#f3eae3 ;
-}
-.container{
-    background-color: #ffff;
-}
 .product{
     font-size: 1rem;
     letter-spacing: 0.3rem;
 }
-.productName{
-    font-family: "Merriweather", serif;
+.productName{  
+    font-family: 'Merriweather',serif;
     font-weight: 1000;
     line-height: 2.2rem;
     font-size: 2rem;
@@ -23,22 +17,17 @@ body{
 
 .productPrice{
     span:first-child{
-        color: #3d8168;
-        font-weight: 700;
+        font-weight: 800;
         font-size: 2rem;
     }
     span:nth-child(2){
         font-size: 0.9rem;
-        color: black;
         font-weight: 200;
-        text-decoration: line-through;
         }
 }
 
 .buyButton{
-    background-color: #3d8168;
-    color: white;
-
+    font-weight: 700;
     img{
         height: 1.2rem;
     }
@@ -59,15 +48,12 @@ body{
 
     .productPrice{
         span:first-child{
-            color: #3d8168;
             font-weight: 700;
             font-size: 1.6rem;
         }
         span:nth-child(2){
             font-size: 0.7rem;
-            color: black;
             font-weight: 200;
-            text-decoration: line-through;
             }
     }
     
