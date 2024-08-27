@@ -4,7 +4,7 @@
 ![Design preview for the Results summary component coding challenge](./assets/design/desktop-preview.jpg)
 ![Design preview for the Results summary component coding challenge](./assets/design/mobile-design.jpg)
 
-Link for Bootstrap: https://dsaw-2024-2.github.io/css-frameworks-rafaelsava/bootstrap-workshop/ 
+Link for Bootstrap: https://dsaw-2024-2.github.io/css-frameworks-rafaelsava/bootstrap-workshop/ \n
 Link for Tailwind https://dsaw-2024-2.github.io/css-frameworks-rafaelsava/tailwindcss-workshop/ 
 Este proyecto consiste en resolver un reto de HTML y CSS dos veces, una utilizando el framework Bootstrap y otra utilizando TailwindCSS. El objetivo principal es crear dos versiones del mismo diseño, siendo lo más parecidas posible al diseño original.
 
